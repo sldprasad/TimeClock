@@ -1,0 +1,102 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+body{
+    background-image: linear-gradient(75deg,rgb(201,0,134)purple);
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#outerDiv{
+    width: 80%;
+    height: 70vh;
+    background-image: linear-gradient(75deg,brown,royalblue);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+#innerDiv{
+    width: 50%;
+    height: 45vh;
+    background-color: black;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    position: relative;
+}
+#heading{
+    font-size: 40px;
+    letter-spacing: 5px;
+    top: 2px;
+    color: white;
+}
+#email,#password{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.borderDiv{
+    position: relative;
+    top: 30px;
+    width: 80%;
+    height: 30px;
+    border: 5px solid royalblue;
+    border-radius: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#passVisible{
+    width: 25px;
+    border-radius: 100%;
+    border: 2px solid royalblue;
+    position: absolute;
+    right: 2px;
+}
+#result{
+    color: red;
+    position: relative;
+    top: 20px;
+}
+#button{
+    width: 40%;
+    position: relative;
+    top:10px ;
+    height: 40px;
+    background-color: transparent;
+    border: lawngreen 5px solid;
+    border-radius: 200px;
+    color: pink;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition: all 0.2s;
+}
+#button:hover{
+    border: pink 5px solod;
+    background-color: purple;
+    color: white;
+    transform: scale(1.2);
+}
